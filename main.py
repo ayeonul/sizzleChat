@@ -21,7 +21,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "안녕하세요! 저는 시즐이에요. 식재료나 음식 레시피에 관해서 뭐든 답해드릴게요.",
+            "content": "안녕하세요! 저는 씨즐이에요. 식재료나 레시피에 관련하여 궁금하신 점이 있으신가요?",
         }
     ]
 

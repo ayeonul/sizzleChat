@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-OPENAI_KEY = os.getenv("OPENAI_KEY")
+# OPENAI_KEY = os.getenv("OPENAI_KEY")
+OPENAI_KEY = st.secrets["OPENAI_KEY"]
 
 concept = "You are 'Sizzle(시즐)', a chatbot that provides guidance on cooking and ingredients. "
 
